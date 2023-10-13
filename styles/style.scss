@@ -32,3 +32,15 @@
 #reward{
   text-align: center;
 }
+#replay {
+  text-align: center;
+  margin: 20px 0;
+  border-radius: 6px;
+  width: max-content;
+  border: solid 2px darkgoldenrod;
+
+  a {
+    color : black;
+    text-decoration: none;
+  }
+}
