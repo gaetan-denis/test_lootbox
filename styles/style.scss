@@ -1,0 +1,28 @@
+.lootbox {
+  display:flex;
+  flex-direction: column;
+  background-image: url('../img/beb34374734119.5c3871177df16.jpg');
+  background-color: lightgreen;
+  background-position: center;
+  height: 600px;
+  width:600px;
+  align-items: center;
+  justify-content: center;
+  text-align :center;
+  .background{
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    background-color : hsla(260, 60%, 65%, .6);
+    height : 150px;
+    color: white;
+  }
+  input{
+    margin: 20px 0;
+    border-radius:8px;
+    width: max-content;
+    border : solid 2px darkgoldenrod;
+  }
+}
+

@@ -5,12 +5,17 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>test_lootbox</title>
+    <link rel="stylesheet" href="styles/style.css">
     <script src="script/script.js"></script>
 </head>
 <body>
-<input type="button" value="Ouvrir votre lootbox" onclick="randomArtefact();">
-<label for="reward">Votre récompense :</label>
-<input type="text" id="reward"></input>
+<div class="lootbox">
+    <div class="background">
+    <input type="button" value="Ouvrir votre lootbox" onclick="randomArtefact();">
+    <label for="reward">Votre récompense :</label>
+    <input type="text" id="reward"></input>
+    </div>
+</div>
 </body>
 </html>
 
