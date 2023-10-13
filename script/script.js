@@ -104,7 +104,7 @@ function randomArtefact() {
     const randNum = Math.floor(Math.random() * 100);
     const artefact = artefacts[randNum];
     document.getElementById('reward').value = artefact;
-    const btn = document.getElementById('btn');
-    btn.disabled = true;
+    //const btn = document.getElementById('btn');
+    //btn.disabled = true;
 }
 
