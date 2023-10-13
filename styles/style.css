@@ -11,19 +11,26 @@
   text-align: center;
 }
 .lootbox .background {
+  border-radius: 6px;
   align-items: center;
   flex-direction: column;
   display: flex;
   justify-content: center;
   background-color: hsla(260, 60%, 65%, 0.6);
+  border: solid 2px darkgoldenrod;
   height: 150px;
+  width: 200px;
   color: white;
 }
 .lootbox input {
   margin: 20px 0;
-  border-radius: 8px;
+  border-radius: 6px;
   width: max-content;
   border: solid 2px darkgoldenrod;
+}
+
+#reward {
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -99,11 +99,10 @@ function randomArtefact() {
         "Heaume du Géant de Pierre",
         "Anneau de l'Immortalité",
         "Grimoire de l'Ombre",
-    ];
 
+];
     const randNum = Math.floor(Math.random() * 100);
     const artefact = artefacts[randNum];
-
     document.getElementById('reward').value = artefact;
 }
 
